@@ -1,0 +1,7 @@
+{
+  "name":"sinu-ai-admin-server",
+  "private":true,
+  "type":"module",
+  "scripts":{"start":"node sinu-ai-server.mjs"},
+  "dependencies":{"dotenv":"latest","express":"latest","multer":"latest","openai":"latest"}
+}
