@@ -1,7 +1,12 @@
 {
-  "name":"sinu-ai-admin-server",
-  "private":true,
-  "type":"module",
-  "scripts":{"start":"node sinu-ai-server.mjs"},
-  "dependencies":{"dotenv":"latest","express":"latest","multer":"latest","openai":"latest"}
+  "name": "sinu-ai-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node sinu-ai-server.mjs"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
 }
