@@ -8,7 +8,6 @@ const TARGET_SERVER = process.env.TARGET_SERVER || 'https://api.storytv.asia';
 
 // Premium Headers & Token jo inject karne hain (Step 5 of Readme.txt)[cite: 1, 2]
 const CUSTOM_HEADERS = {
-  'appVersion': '69',
   'platform': '0',
   'deviceId': '2808d49b7e08b716',
   'os': 'Android 10 (API 29)',
